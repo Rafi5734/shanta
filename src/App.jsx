@@ -7,6 +7,10 @@ import CustomButtonGroup from "./components/CustomButtonGroup";
 import LeftIcon from "./assets/icons/LeftIcon";
 import RightIcon from "./assets/icons/RightIcon";
 import SliderOne from "./components/SliderOne";
+import TwitterIcon from "./assets/icons/TwitterIcon";
+import GitbookIcon from "./assets/icons/GitbookIcon";
+import DiscordIcon from "./assets/icons/DiscordIcon";
+import BitcoinIcon from "./assets/icons/BitcoinIcon";
 
 function App() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -88,31 +92,43 @@ function App() {
 
         <div className="bg-white -mt-3 pt-6 pb-6 ps-[121px] pe-[121px] rounded-2xl footer_section">
           <div className="flex justify-between items-center">
-            <div className="flex flex-row">
+            <div className="flex flex-row items-center">
               <TelegramIcon />{" "}
-              <p className="ms-2 montserrat text-sm font-medium icon_name">Telegram</p>
+              <p className="ms-2 montserrat text-sm font-medium icon_name">
+                Telegram
+              </p>
             </div>
-            <div className="flex flex-row">
-              <TelegramIcon />{" "}
-              <p className="ms-2 montserrat text-sm font-medium icon_name">Telegram</p>
+            <div className="flex flex-row items-center">
+              <TwitterIcon />{" "}
+              <p className="ms-2 montserrat text-sm font-medium icon_name">
+                X (Formerly Twitter)
+              </p>
             </div>
-            <div className="flex flex-row">
-              <TelegramIcon />{" "}
-              <p className="ms-2 montserrat text-sm font-medium icon_name">Telegram</p>
+            <div className="flex flex-row items-center">
+              <GitbookIcon />{" "}
+              <p className="ms-2 montserrat text-sm font-medium icon_name">
+                Gitbook
+              </p>
             </div>
-            <div className="flex flex-row">
-              <TelegramIcon />{" "}
-              <p className="ms-2 montserrat text-sm font-medium icon_name">Telegram</p>
+            <div className="flex flex-row items-center">
+              <DiscordIcon />{" "}
+              <p className="ms-2 montserrat text-sm font-medium icon_name">
+                Discord
+              </p>
             </div>
-            <div className="flex flex-row">
-              <TelegramIcon />{" "}
-              <p className="ms-2 montserrat text-sm font-medium icon_name">Telegram</p>
+            <div className="flex flex-row items-center">
+              <BitcoinIcon />{" "}
+              <p className="ms-2 montserrat text-sm font-medium icon_name">
+                Buy $SANTA coin
+              </p>
             </div>
           </div>
 
           <div>
             <hr className="mt-6 mb-6 bg-black border-1.5" />
-            <p className="text-center text-[#000000A6] montserrat text-[13px]">© Copyright Santa Coin 2024 All rights reserved.</p>
+            <p className="text-center text-[#000000A6] montserrat text-[13px]">
+              © Copyright Santa Coin 2024 All rights reserved.
+            </p>
           </div>
         </div>
       </div>
