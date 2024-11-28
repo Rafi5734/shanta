@@ -51,7 +51,7 @@ export default function SliderOne() {
             </button>
           </div>
         </div>
-        <div>
+        <div className="flex justify-end">
           <img src={shanta_img} className="-mt-[100px]" alt="shanta-img" />
         </div>
       </div>
