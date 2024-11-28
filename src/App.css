@@ -3,10 +3,150 @@
   width: 100%;
   height: 100vh;
 }
+@media only screen and (max-width: 1440px) {
+  .homepage_section {
+    width: 100%;
+    height: 100vh;
+  }
+}
+
+@media only screen and (max-width: 1021px) {
+  .homepage_section {
+    width: 100%;
+    height: 135vh;
+  }
+  .footer_section {
+    margin-top: 20px;
+  }
+  .slider_1 {
+    height: 350px;
+  }
+  .image_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+}
 
 @media only screen and (max-width: 682px) {
+  .slider_main {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
   .navbar_top {
     padding-left: 20px;
     padding-right: 20px;
+  }
+  .direction_btn {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .footer_section {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 615px) {
+  .image_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  .homepage_section {
+    width: 100%;
+    height: 140vh;
+  }
+  .footer_section {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+  }
+}
+
+@media only screen and (max-width: 533px) {
+  .image_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  .homepage_section {
+    width: 100%;
+    height: 135vh;
+  }
+  .footer_section {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+  }
+  .icon_name{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .image_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  .homepage_section {
+    width: 100%;
+    height: 130vh;
+  }
+  .footer_section {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .image_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  .homepage_section {
+    width: 100%;
+    height: 140vh;
+  }
+  .footer_section {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+  }
+  .shanta_name {
+    font-size: 50px !important;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .slider_1 {
+    order: 2;
+    height: 380px;
+  }
+  .image_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    order: 1;
+  }
+  .homepage_section {
+    width: 100%;
+    height: 125vh;
+  }
+  .slider_main {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .footer_section {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .shanta_name {
+    font-size: 50px !important;
   }
 }

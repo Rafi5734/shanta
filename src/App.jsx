@@ -50,7 +50,7 @@ function App() {
           </button>
         </div>
 
-        <div className="relative w-full max-w-full mx-auto overflow-hidden">
+        <div className="relative w-full max-w-full mx-auto overflow-hidden direction_btn">
           <div className="flex flex-row mt-[84.5px]">
             <button onClick={prevSlide} className="transform -translate-y-1/2">
               <LeftIcon />
@@ -86,27 +86,27 @@ function App() {
           </div>
         </div>
 
-        <div className="bg-white -mt-3 pt-6 pb-6 ps-[121px] pe-[121px] rounded-2xl">
+        <div className="bg-white -mt-3 pt-6 pb-6 ps-[121px] pe-[121px] rounded-2xl footer_section">
           <div className="flex justify-between items-center">
             <div className="flex flex-row">
               <TelegramIcon />{" "}
-              <p className="ms-2 montserrat text-sm font-medium">Telegram</p>
+              <p className="ms-2 montserrat text-sm font-medium icon_name">Telegram</p>
             </div>
             <div className="flex flex-row">
               <TelegramIcon />{" "}
-              <p className="ms-2 montserrat text-sm font-medium">Telegram</p>
+              <p className="ms-2 montserrat text-sm font-medium icon_name">Telegram</p>
             </div>
             <div className="flex flex-row">
               <TelegramIcon />{" "}
-              <p className="ms-2 montserrat text-sm font-medium">Telegram</p>
+              <p className="ms-2 montserrat text-sm font-medium icon_name">Telegram</p>
             </div>
             <div className="flex flex-row">
               <TelegramIcon />{" "}
-              <p className="ms-2 montserrat text-sm font-medium">Telegram</p>
+              <p className="ms-2 montserrat text-sm font-medium icon_name">Telegram</p>
             </div>
             <div className="flex flex-row">
               <TelegramIcon />{" "}
-              <p className="ms-2 montserrat text-sm font-medium">Telegram</p>
+              <p className="ms-2 montserrat text-sm font-medium icon_name">Telegram</p>
             </div>
           </div>
 

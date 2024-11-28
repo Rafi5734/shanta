@@ -6,12 +6,12 @@ import TelegramIcon from "../assets/icons/TelegramIcon";
 
 export default function SliderOne() {
   return (
-    <div className="w-full">
+    <div className="w-full slider_main">
       <div className="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-5">
-        <div>
+        <div className="slider_1">
           <div className="flex flex-row items-center">
-            <img src={profilePic} alt="profilePic" />
-            <p className="spicy_rice ms-4 text-[64px]">Santa TON</p>
+            <img src={profilePic} alt="profilePic"/>
+            <p className="spicy_rice ms-4 text-[64px] shanta_name">Santa TON</p>
           </div>
           <div>
             <p className="w-full text-[17px] font-medium montserrat">
@@ -51,7 +51,7 @@ export default function SliderOne() {
             </button>
           </div>
         </div>
-        <div className="flex justify-end">
+        <div className="flex justify-end lg:order-last md:order-last sm:order-first xs:order-first image_section">
           <img src={shanta_img} className="-mt-[100px]" alt="shanta-img" />
         </div>
       </div>
