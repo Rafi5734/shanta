@@ -18,11 +18,8 @@ function App() {
 
   const slides = [
     { id: 1, content: <SliderOne /> },
-    { id: 2, content: "Slide 2" },
-    { id: 3, content: "Slide 3" },
-    { id: 3, content: "Slide 3" },
-    { id: 3, content: "Slide 3" },
-    { id: 3, content: "Slide 3" },
+    { id: 2, content: <SliderOne /> },
+    { id: 3, content: <SliderOne /> },
   ];
 
   const nextSlide = () => {
@@ -35,12 +32,6 @@ function App() {
     );
   };
 
-  // const responsive = {
-  //   superLargeDesktop: { breakpoint: { max: 4000, min: 1024 }, items: 5 },
-  //   desktop: { breakpoint: { max: 1024, min: 768 }, items: 3 },
-  //   tablet: { breakpoint: { max: 768, min: 464 }, items: 2 },
-  //   mobile: { breakpoint: { max: 464, min: 0 }, items: 1 },
-  // };
   return (
     <section className="bg-[#279dda] homepage_section">
       <div className="container mx-auto pt-6 pb-6">
@@ -48,9 +39,9 @@ function App() {
           <p className="montserrat text-[32px] leading-10 font-bold text-white">
             Santa Ton
           </p>
-          <button class="relative rounded-full" href="#">
-            <span class="rounded-full absolute top-0 left-0 mt-1 ml-1 h-full w-full bg-black"></span>
-            <span class="rounded-full fold-bold flex items-center justify-center relative inline-block h-full w-full border-2 border-black bg-white pt-5 pb-5 ps-10 pe-10 text-base font-bold text-black transition duration-100 hover:bg-yellow-400 hover:text-gray-900">
+          <button className="relative rounded-full" href="#">
+            <span className="rounded-full absolute top-0 left-0 mt-1 ml-1 h-full w-full bg-black"></span>
+            <span className="rounded-full fold-bold flex items-center justify-center relative inline-block h-full w-full border-2 border-black bg-white pt-5 pb-5 ps-10 pe-10 text-base font-bold text-black transition duration-100 hover:bg-yellow-400 hover:text-gray-900">
               <TelegramIcon />{" "}
               <span className="ms-3 montserrat text-base font-medium">
                 Start
@@ -87,11 +78,41 @@ function App() {
             {slides.map((slide) => (
               <div
                 key={slide.id}
-                className={`w-full h-64 flex-shrink-0 ${slide.bg} text-white`}
+                className={`w-full flex-shrink-0 ${slide.bg} text-white`}
               >
                 {slide.content}
               </div>
             ))}
+          </div>
+        </div>
+
+        <div className="bg-white -mt-3 pt-6 pb-6 ps-[121px] pe-[121px] rounded-2xl">
+          <div className="flex justify-between items-center">
+            <div className="flex flex-row">
+              <TelegramIcon />{" "}
+              <p className="ms-2 montserrat text-sm font-medium">Telegram</p>
+            </div>
+            <div className="flex flex-row">
+              <TelegramIcon />{" "}
+              <p className="ms-2 montserrat text-sm font-medium">Telegram</p>
+            </div>
+            <div className="flex flex-row">
+              <TelegramIcon />{" "}
+              <p className="ms-2 montserrat text-sm font-medium">Telegram</p>
+            </div>
+            <div className="flex flex-row">
+              <TelegramIcon />{" "}
+              <p className="ms-2 montserrat text-sm font-medium">Telegram</p>
+            </div>
+            <div className="flex flex-row">
+              <TelegramIcon />{" "}
+              <p className="ms-2 montserrat text-sm font-medium">Telegram</p>
+            </div>
+          </div>
+
+          <div>
+            <hr className="mt-6 mb-6 bg-black border-1.5" />
+            <p className="text-center text-[#000000A6] montserrat text-[13px]">© Copyright Santa Coin 2024 All rights reserved.</p>
           </div>
         </div>
       </div>
