@@ -11,6 +11,8 @@ import TwitterIcon from "./assets/icons/TwitterIcon";
 import GitbookIcon from "./assets/icons/GitbookIcon";
 import DiscordIcon from "./assets/icons/DiscordIcon";
 import BitcoinIcon from "./assets/icons/BitcoinIcon";
+import SliderTwo from "./components/SliderTwo";
+import SliderThree from "./components/SliderThree";
 
 function App() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -22,8 +24,8 @@ function App() {
 
   const slides = [
     { id: 1, content: <SliderOne /> },
-    { id: 2, content: <SliderOne /> },
-    { id: 3, content: <SliderOne /> },
+    { id: 2, content: <SliderTwo /> },
+    { id: 3, content: <SliderThree /> },
   ];
 
   const nextSlide = () => {
@@ -90,7 +92,7 @@ function App() {
           </div>
         </div>
 
-        <div className="bg-white -mt-3 pt-6 pb-6 ps-[121px] pe-[121px] rounded-2xl footer_section">
+        <div className="bg-white mt-3 pt-6 pb-6 ps-[121px] pe-[121px] rounded-2xl footer_section">
           <div className="flex justify-between items-center">
             <div className="flex flex-row items-center">
               <TelegramIcon />{" "}

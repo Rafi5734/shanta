@@ -1,7 +1,7 @@
 .homepage_section {
   background-image: url("./assets/images/bg.png");
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
 }
 @media only screen and (max-width: 1440px) {
   .homepage_section {
@@ -27,6 +27,12 @@
     align-items: center;
     margin-top: 50px;
   }
+  .icon_name {
+    display: none;
+  }
+  .image3_main {
+    margin-top: 100px !important;
+  }
 }
 
 @media only screen and (max-width: 682px) {
@@ -45,6 +51,10 @@
   .footer_section {
     margin-left: 20px;
     margin-right: 20px;
+  }
+  .slider3_main_wrapper {
+    width: 100%;
+    height: 1000px;
   }
 }
 
@@ -79,9 +89,6 @@
   .footer_section {
     padding-left: 50px !important;
     padding-right: 50px !important;
-  }
-  .icon_name{
-    display: none;
   }
 }
 
@@ -119,6 +126,7 @@
   }
   .shanta_name {
     font-size: 50px !important;
+    text-align: center !important;
   }
 }
 
@@ -136,7 +144,7 @@
   }
   .homepage_section {
     width: 100%;
-    height: 135vh;
+    height: 153vh;
   }
   .slider_main {
     padding-left: 20px;
@@ -148,5 +156,6 @@
   }
   .shanta_name {
     font-size: 50px !important;
+    text-align: center !important;
   }
 }

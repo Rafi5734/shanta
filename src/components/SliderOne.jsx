@@ -3,6 +3,7 @@ import profilePic from "../assets/images/profile_pic.png";
 import CopyIcon from "../assets/icons/CopyIcon";
 import shanta_img from "../assets/images/shanta_img.png";
 import TelegramIcon from "../assets/icons/TelegramIcon";
+import BitcoinIcon from "../assets/icons/BitcoinIcon";
 
 export default function SliderOne() {
   return (
@@ -11,7 +12,7 @@ export default function SliderOne() {
         <div className="slider_1">
           <div className="flex flex-row items-center">
             <img src={profilePic} alt="profilePic"/>
-            <p className="spicy_rice ms-4 text-[64px] shanta_name">Santa TON</p>
+            <p className="ms-3 spicy_rice text-[64px] shanta_name">Santa TON</p>
           </div>
           <div>
             <p className="w-full text-[17px] font-medium montserrat">
@@ -43,7 +44,7 @@ export default function SliderOne() {
             <button className="relative rounded-full" href="#">
               <span class="rounded-full absolute top-0 left-0 mt-1 ml-1 h-full w-full bg-black"></span>
               <span class="rounded-full fold-bold flex items-center justify-center relative inline-block h-full w-full border-2 border-black bg-white pt-5 pb-5 ps-10 pe-10 text-base font-bold text-black transition duration-100 hover:bg-yellow-400 hover:text-gray-900">
-                <TelegramIcon />{" "}
+                <BitcoinIcon />{" "}
                 <span className="ms-3 montserrat text-base font-medium">
                   Buy $Santa Ton
                 </span>
