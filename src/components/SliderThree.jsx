@@ -60,8 +60,10 @@ export default function SliderThree() {
             </div>
           </div>
         </div>
-        <div className="flex justify-end items-center lg:order-last md:order-last sm:order-first xs:order-first image_section image3_main">
+        
+        <div className="flex justify-end flex-col items-center lg:order-last md:order-last sm:order-first xs:order-first image_section image3_main">
           <img src={sliderThree_img} className="-mt-[60px]" alt="shanta-img" />
+          <p>Brother amar phone nosto hoye gece. ami phone thik korte jaitechi.</p>
         </div>
       </div>
     </div>

@@ -17,11 +17,6 @@ import SliderThree from "./components/SliderThree";
 function App() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  // Example Component
-  const SlideContent = ({ text }) => {
-    return <div className="p-4 bg-blue-500 rounded text-white">{text}</div>;
-  };
-
   const slides = [
     { id: 1, content: <SliderOne /> },
     { id: 2, content: <SliderTwo /> },
